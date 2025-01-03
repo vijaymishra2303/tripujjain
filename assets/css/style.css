@@ -1,0 +1,1050 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); body {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --primar-color: #FB542B;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a, a:hover, a:focus, button, button:hover, button:focus {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p, em, span, strong, article, b {
+    font-family: Poppins, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+    letter-spacing: 1px;
+    font-family: Aclonica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+img {
+    max-width: 100%;
+}
+
+input, textarea, select, button, label, svg, svg path, svg rect, svg polygon, img, a, ::after, ::before, :hover, :focus, .form-control:focus {
+    box-shadow: none;
+    outline: none !important;
+}
+
+img, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, input, textarea, select, button, label, svg, svg path, svg rect, svg polygon, img, a, ::after, ::before, :hover, :focus, .form-control:focus {
+    transition: all 0.3s ease 0s;
+}
+
+ul, ol {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+body.modal-open, body:hover {
+    transition: all 0s ease 0s;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+header .travel_agnecy {
+    padding: 20px 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    background: rgba(0, 0, 0, 0.13);
+}
+
+header .travel_agnecy .travel_logo {
+}
+
+header .travel_agnecy .travel_logo img {
+}
+
+header .travel_agnecy .myNav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .travel_agnecy .myNav ul {
+    display: flex;
+}
+
+header .travel_agnecy .myNav ul li a::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: var(--primar-color);
+    transition: width 0.3s ease 0s;
+}
+
+header .travel_agnecy .myNav .closeMe {
+}
+
+header .travel_agnecy .myNav button {
+    width: 27px;
+    border: none;
+    background: rgb(213, 213, 213);
+    border-radius: 35px;
+}
+
+header .travel_agnecy .myNav ul li a:hover {
+    color: var(--primar-color);
+}
+
+header .travel_agnecy .myNav ul li a:hover::after {
+    width: 100%;
+    transition: width 0.3s ease 0s;
+}
+
+header .travel_agnecy .myNav ul img {
+}
+
+header .travel_agnecy .myNav ul li {
+    margin: 0px 20px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+header .travel_agnecy .myNav ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+header .travel_agnecy .mcs_menu_shift {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+.travel_agnecy .openMenu {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+
+header .travel_agnecy .agency_btn, .agency_btn:focus {
+    border: none;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(30deg, rgb(251, 84, 43), rgb(251, 84, 43));
+    border-radius: 3px;
+    background-size: 100%;
+    font-size: 16px;
+    padding: 0px 25px;
+    text-transform: capitalize;
+    min-width: 150px;
+    height: 50px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    animation: 1.5s ease 0s infinite normal none running pulse512;
+}
+
+header .travel_agnecy .myNav .mcs_btn {
+    margin-left: 35px;
+}
+
+@keyframes pulse512 {
+    0% {
+        box-shadow: rgba(255, 174, 0, 0.4) 0px 0px 0px 0px;
+    }
+
+    70% {
+        box-shadow: rgba(218, 103, 68, 0) 0px 0px 0px 15px;
+    }
+
+    100% {
+        box-shadow: rgba(218, 103, 68, 0) 0px 0px 0px 0px;
+    }
+}
+
+.mainslider figure img {
+    height: 800px;
+    object-fit: cover;
+}
+
+.banner_img {
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+.banner_img .agency_visit {
+}
+
+.banner_img .agency_visit .our_hotel {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+.banner_img .our_hotel h1 {
+    font-weight: 600;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+.banner_img .our_hotel p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: rgb(255, 255, 255);
+    width: 44%;
+    line-height: 22px;
+    margin: 15px 0px 20px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.item {
+    position: relative;
+}
+
+.item .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainslider {
+}
+
+.our_hotel {
+}
+
+.main_btn a {
+    border: none;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(30deg, rgb(252, 129, 91), rgb(252, 129, 91));
+    border-radius: 3px;
+    background-size: 100%;
+    font-size: 16px;
+    padding: 0px 25px;
+    text-transform: capitalize;
+    min-width: 150px;
+    height: 50px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    animation: 1.5s ease 0s infinite normal none running pulse512;
+}
+
+.main_btn a img {
+    width: 22px !important;
+}
+
+.main_padd {
+    padding: 80px 0px;
+}
+
+.main_heading {
+    margin-bottom: 30px;
+}
+
+.main_heading h6 {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--primar-color);
+    margin-bottom: 10px;
+}
+
+.main_heading h2 {
+    font-weight: 600;
+    font-size: 32px;
+    color: rgb(48, 48, 48);
+    margin: 0px;
+}
+
+.main_heading span {
+    color: var(--primar-color);
+}
+
+.welcome_agency {
+}
+
+.welcome_agency p {
+    font-family: Roboto;
+    font-weight: 400;
+    color: rgb(48, 48, 48);
+    font-size: 16px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    line-height: 26px;
+    margin: 10px 0px 20px;
+}
+
+.mahakal_img figure {
+    margin: 0px;
+}
+
+.mahakal_img figure img {
+    object-fit: cover;
+    width: 100%;
+    height: 415px;
+    border-radius: 5px;
+}
+
+.mahakal_log figure {
+}
+
+.mahakal_log figure img {
+    border-radius: 5px;
+    width: 100%;
+    height: 198px;
+    object-fit: cover;
+}
+
+.book_bg {
+    background: rgb(251, 255, 233);
+    overflow: hidden;
+}
+
+.book_travel:hover {
+    background: rgba(251, 84, 43, 0.08);
+}
+
+.book_travel {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(230, 230, 230);
+    padding: 30px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.book_bg .book_pad {
+    margin-bottom: 20px;
+}
+
+.book_travel figure {
+    margin: 0px;
+}
+
+.book_travel figure img {
+}
+
+.book_travel h3 {
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(48, 48, 48);
+    margin: 15px 0px 5px;
+}
+
+.book_travel .click_btn {
+    font-weight: 300;
+    text-decoration: underline;
+    font-size: 14px;
+    color: rgb(255, 170, 0);
+}
+
+.travel_product_list.owl-loaded.owl-drag .owl-nav.disabled img {
+    object-fit: fill;
+    width: 24.87px !important;
+}
+
+.owl-carousel.travel_product_list.owl-loaded.owl-drag .owl-nav.disabled {
+    position: absolute;
+    top: -64px;
+    right: 13px;
+    gap: 15px;
+    display: flex;
+}
+
+.puja_appoitment {
+}
+
+.puja_appoitment figure {
+}
+
+.puja_appoitment figure img {
+    width: 276px;
+    border-radius: 5px;
+    object-fit: cover;
+    height: 390px;
+}
+
+.puja_appoitment h6 {
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.Our_Happy {
+    background: rgb(23, 2, 126);
+}
+
+.Our_Happy .main_heading h2 {
+    color: white;
+}
+
+.mahakal_img {
+}
+
+.main_increase {
+    margin-bottom: 20px;
+}
+
+.abtUjjain {
+}
+
+.Our_Happy .Testimonials_happy {
+}
+
+.Testimonials_card .circle_test {
+    position: absolute;
+    top: -29px;
+    padding: 25px;
+    background: white;
+    filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 4px 20px);
+    border-radius: 49px;
+    z-index: 99;
+    left: 41px;
+}
+
+.Testimonials_card .circle_test figure {
+    margin: 0px;
+}
+
+.Testimonials_card .circle_test figure img {
+    width: 19px;
+}
+
+.Testimonials_card {
+    box-shadow: rgba(0, 0, 0, 0.05) 15px 15px 30px;
+    background: white;
+    padding: 20px;
+    position: relative;
+    margin: 30px 0px 0px;
+}
+
+.Testimonials_client figure {
+}
+
+.Testimonials_client figure img {
+    height: 290px;
+    object-fit: cover;
+}
+
+.Testimonials_client h6 {
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(48, 48, 48);
+}
+
+.latest_updated {
+    background: rgb(255, 229, 194);
+    overflow: hidden;
+}
+
+.book_btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.update_news {
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.update_news figure {
+    margin: 0px;
+}
+
+.update_news figure img {
+    width: 100%;
+    border-radius: 5px;
+    height: 280px;
+    object-fit: fill;
+}
+
+.update_news .latest_text {
+    padding: 25px;
+}
+
+.update_news .latest_text h6 {
+    margin: 0px;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 20px;
+    line-height: 30px;
+    width: 73%;
+    color: rgb(48, 48, 48);
+}
+
+.update_news .latest_text p {
+    margin: 10px 0px;
+    overflow: hidden;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 24px;
+}
+
+.update_news .latest_text img {
+    width: 28px;
+}
+
+.call_message {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 25px;
+    padding: 45px 30px;
+}
+
+.call_message .call_padd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call_message .travel_contact_fields {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.call_message .travel_contact_fields input {
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgba(101, 101, 101, 0.13);
+    padding: 0px 15px;
+    font-size: 14px;
+}
+
+.call_message .travel_contact_fields select {
+    height: 50px;
+    color: rgb(24, 24, 24);
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: var(--bs-form-control-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.travel_contact_fields .contact_btn a {
+    width: 100%;
+}
+
+.travel_contact_fields .contact_btn {
+    width: 100%;
+}
+
+.contact_btn button {
+    border: none;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(30deg, rgb(251, 84, 43), rgb(251, 84, 43));
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 0px 25px;
+    text-transform: capitalize;
+    min-width: 150px;
+    height: 50px;
+    display: flex;
+    width: inherit;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    animation: 1.5s ease 0s infinite normal none running pulse512;
+}
+
+.call_image figure {
+    margin: 0px;
+}
+
+.call_image figure img {
+    height: 361px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.latest figure img {
+}
+
+.myFooter {
+    background: rgb(23, 2, 126);
+    padding: 70px 0px 10px;
+}
+
+.myFooter .itWill {
+    background: var(--primar-color);
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -20px;
+    align-items: center;
+}
+
+.what_heading {
+    width: 60%;
+}
+
+.myFooter .itWill .what_heading h2 {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.myFooter .itWill p {
+    margin: 10px 0px;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.myFooter .itWill .whatsaap {
+}
+
+.myFooter .itWill .whatsaap a {
+    background: rgb(23, 2, 126);
+}
+
+.myFooter .footer_pra ul {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.myFooter .footer_pra ul li {
+    margin: 0px 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.get_cardpadd {
+    padding: 70px 0px 130px;
+}
+
+.myFooter .footer_pra ul li a:hover {
+    color: var(--primar-color);
+}
+
+.myFooter .footer_pra ul li a:active {
+    color: var(--primar-color);
+}
+
+.myFooter .footer_pra ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.myFooter .footer_pra p {
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0px auto;
+    font-size: 14px;
+    line-height: 26px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.myFooter .whatsaap_get {
+    position: relative;
+}
+
+.footer_pra {
+    margin: 20px 0px 0px;
+}
+
+.footer_copyright {
+    border-top: 1px dotted var(--primar-color);
+    margin: 25px 0px 0px;
+    padding: 10px 0px 0px;
+}
+
+.footer_copyright p {
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+.footer_copyright .design_by {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_us {
+    display: flex;
+    position: relative;
+    background: url("../images/mahakal1.jpg") center center / cover;
+    height: 340px;
+    width: 100%;
+    align-items: self-end;
+}
+
+.about_us .about_heading {
+    width: fit-content;
+    border-radius: 15px 15px 0px 0px;
+    padding: 30px 20px 20px;
+    background: rgba(251, 84, 43, 0.82);
+}
+
+.about_us .about_heading h1 {
+    margin: 0px;
+    color: white;
+}
+
+.about_pge .row {
+    padding: 0px 20px;
+    background: rgb(255, 255, 255);
+}
+
+.about_pge {
+    padding: 70px 0px 130px;
+}
+
+.about_pge .abiutImg figure img {
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.about_pge .aboutTxt p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    opacity: 0.7;
+}
+
+.contact_contactinfo {
+    display: flex;
+    width: 100%;
+    padding: 30px 60px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 7px;
+}
+
+.contact_contactinfo ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact_contactinfo ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_contactinfo ul li span {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.contact_contactinfo ul li p {
+    font-size: 21px;
+    margin-bottom: 0px;
+    word-break: break-word;
+    text-align: center;
+}
+
+.atharva_contact_form, .atharva_contact_form form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.atharva_contact_form {
+    padding: 30px;
+    background: rgb(255, 255, 255);
+}
+
+.atharva_contact_form .atharva_contact_field {
+    width: 100%;
+    border: 1px solid rgb(240, 240, 240);
+    height: 45px;
+    border-radius: 0px;
+    padding: 0px 15px;
+    margin-bottom: 15px;
+    background-color: rgb(240, 240, 240);
+}
+
+.atharva_contact_form textarea.atharva_contact_field {
+    height: auto;
+    padding: 15px;
+}
+
+.atharva_contact_form select.atharva_contact_field {
+    cursor: pointer;
+}
+
+.atharva_contact_fields {
+    display: flex;
+    width: 100%;
+    column-gap: 15px;
+}
+
+.contact_btn {
+    width: fit-content;
+}
+
+.tripujj_contact_sllider .item {
+    padding: 25px;
+}
+
+.tripujj_contact_sllider img {
+    width: 100%;
+    height: 313px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.pad_zero {
+    padding-right: 0px;
+}
+
+.contact_icon {
+    display: flex;
+    justify-content: center;
+}
+
+.about_us::after {
+}
+
+.contact_icon a {
+    background: rgb(23, 2, 126);
+    padding: 12px 13px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0px 0px 0px 10px;
+}
+
+.contact_icon a img {
+}
+
+.policyText em {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+}
+
+.inquiry_page {
+    background: url("../images/inquiry.jpg") center center / cover;
+    width: 100%;
+    height: 100%;
+}
+
+.inquiry_filed {
+    padding: 80px 0px 160px;
+}
+
+.inquiry_formin {
+    background: white;
+    padding: 50px;
+    position: relative;
+    left: 0px;
+    border-radius: 30px;
+}
+
+.inquiry_filed .feedBack-field {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group .form-control {
+    height: 50px;
+    border: none;
+    background: rgb(255, 244, 244);
+}
+
+.form-group .test_area {
+    height: 80px;
+}
+
+.blod_pginquriy .blog-img {
+}
+
+.blod_pginquriy .blog-img figure {
+    margin: 0px;
+}
+
+.blod_pginquriy .blog-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.blod_pginquriy h5 {
+    color: var(--primar-color);
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0px 0px 20px;
+}
+
+.blod_pginquriy p {
+    text-align: justify;
+    margin: 25px 0px 0px;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.8;
+    color: black;
+}
+
+.side_blog {
+    padding: 30px 22px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: sticky;
+    top: 0;
+}
+
+.search_input {
+    display: flex;
+}
+
+.search_input input {
+    height: 50px;
+    padding: 0px 10px;
+    width: 100%;
+    border: 1px solid var(--primar-color);
+}
+
+.recent_post {
+}
+
+.inq_bg {
+    background: url("../images/inquiry.svg") center center / cover white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.inquiry_filed .container {
+    background: var(--primar-color);
+    padding: 45px;
+}
+
+.recent_post li {
+    padding: 0px 0px 15px;
+}
+
+.form_inq {
+}
+
+.form_inq .inqiury_test {
+    padding: 0px 0px 20px;
+}
+
+.form_inq .inqiury_test h4 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.inquiry_formin figure {
+    margin: 0px auto;
+    width: 75%;
+    text-align: center;
+}
+
+.inquiry_formin figure img {
+    object-fit: cover;
+}
+
+.form_inq .inqiury_test h6 {
+    margin: 0px;
+    font-size: 14px;
+    color: var(--primar-color);
+    line-height: 24px;
+}
+
+.blog_btn button {
+    padding: 0px 10px;
+    min-width: 0px;
+}
+
+.recent_post li a {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.beast_event_wrap {
+    position: relative;
+    height: 1000px;
+    gap: 20px;
+    display: grid;
+    padding: 10px 0px;
+    grid-template-columns: repeat(3, 2fr);
+}
+.beast_event_wrap figure img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.mainslider::after{
+    content: "";
+}
